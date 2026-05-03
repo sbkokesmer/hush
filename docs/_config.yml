@@ -1,0 +1,8 @@
+title: Hush
+description: A safer way to visit websites you don't fully trust.
+theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: /:title
+exclude:
+  - APP_STORE_LISTING.md
+  - APP_REVIEW_NOTES.md
