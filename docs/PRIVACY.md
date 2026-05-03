@@ -12,6 +12,18 @@ title: PRIVACY
 
 Hush does not collect, store, transmit, or sell any personal data. Everything you do in the app stays on your device. We have no servers, no analytics, no advertising, and no third-party SDKs that observe you.
 
+## What Hush is NOT
+
+To set correct expectations and avoid confusion:
+
+- **Hush is NOT a VPN.** Hush does not change, hide, or proxy your IP address. The websites you visit through Hush still see your real IP address and approximate geographic location, exactly as they would in any other browser.
+- **Hush does NOT hide your country, city, or ISP.** Geo-location based on your IP is visible to sites you visit.
+- **Hush is NOT an antivirus or malware scanner.** It blocks file downloads by default and warns about known phishing sites (using Apple's built-in Safe Browsing), but it cannot guarantee protection against every threat.
+- **Hush does NOT make you anonymous.** If you sign in to a website through Hush, that website knows it is you. Your account, your session.
+- **Hush is NOT a Tor browser.** No onion routing, no traffic mixing.
+
+What Hush *does* do is reduce the amount of data that trackers, advertisers, and fingerprinting scripts can collect about you while you browse — entirely on your device, with no server in the middle.
+
 ## What we don't collect
 
 We do not collect:

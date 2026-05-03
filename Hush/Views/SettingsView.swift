@@ -82,6 +82,18 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Label("Hush is not a VPN", systemImage: "exclamationmark.triangle.fill")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(.orange)
+                        Text("Hush blocks trackers, ads, fingerprinting, and cookies — but does NOT change or hide your IP address. Websites you visit still see your real IP and approximate location. Hush does not make you anonymous and is not an antivirus.")
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(.vertical, 4)
+                } header: { Text("What Hush is not") }
+
+                Section {
                     Label("Hush keeps no logs and sends nothing to a server. Everything stays on your device.",
                           systemImage: "lock.shield.fill")
                         .font(.footnote)

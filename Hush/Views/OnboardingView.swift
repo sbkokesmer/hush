@@ -23,6 +23,17 @@ struct OnboardingView: View {
             ]
         ),
         .init(
+            icon: "exclamationmark.triangle.fill",
+            title: "What Hush doesn't do",
+            subtitle: "Be honest about the limits, so you stay safe.",
+            bullets: [
+                ("network", "Hush is NOT a VPN — your real IP is still visible to sites"),
+                ("antenna.radiowaves.left.and.right", "Doesn't hide your location or country"),
+                ("person.crop.circle.badge.questionmark", "If you log in, the site knows it's you"),
+                ("ladybug.fill", "Not an antivirus — use common sense too")
+            ]
+        ),
+        .init(
             icon: "globe.badge.chevron.backward",
             title: "Add your first site",
             subtitle: "Add any forum, news site, or anything you'd rather not share with your everyday browser.",

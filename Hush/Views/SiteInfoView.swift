@@ -37,7 +37,7 @@ struct SiteInfoView: View {
                     }
                 }
 
-                Section("Network") {
+                Section {
                     if let ip = info.ipAddress {
                         row("Server IP", ip)
                     } else {
@@ -48,6 +48,8 @@ struct SiteInfoView: View {
                         }
                     }
                     row("Scheme", info.schemeLabel)
+                } header: { Text("Network") } footer: {
+                    Text("This is the website's server IP. Your device's own IP address is also visible to the site — Hush does not hide it (Hush is not a VPN).")
                 }
 
                 Section("This session") {
